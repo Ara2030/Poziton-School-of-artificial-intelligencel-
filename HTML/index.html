@@ -12,16 +12,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
   <style>
-    body {
-      background-image: url(background-fon.jpg);
-      background-repeat: no-repeat;
-      /*Не повторяет изображение по всему экрану*/
-      background-position: center center;
-      background-attachment: fixed;
-      /*Делает фоновое изображение элемента неподвижным.*/
-      background-size: cover;
-    }
-
     p {
       text-align: center;
       font-family: 'Oswald', sans-serif;
@@ -29,12 +19,10 @@
       margin-top: 0px;
       font-size: -webkit-xxx-large;
     }
-
     img {
       margin-top: 270px;
       margin-left: 841px;
     }
-
     a {
       text-align: center;
       font-family: 'Oswald', sans-serif;
@@ -42,57 +30,29 @@
       margin-top: 0px;
       font-size: -webkit-xxx-large;
     }
-
     div img {
       margin-top: 0px;
       margin-left: 0px
     }
-
     div p {
       color: black;
       font-size: 18px;
     }
-
-    section.border1 {
-      border: 1px solid rgb(255, 255, 255);
-      height: 430px;
-
-    }
-
-    section.border2 {
-      border: 1px solid rgb(255, 255, 255);
-      height: 430px;
-    }
-
-    section.border3 {
-      border: 1px solid rgb(255, 255, 255);
-      height: 611px;
-    }
-
     section p {
       text-align: justify;
       margin-bottom: 0px;
 
     }
-
-    section p.border4 {
-      text-align: center;
-      margin-bottom: 0px;
-    }
-
-    section p.sticky {
-      position: sticky;
-      top: 15px;
-    }
-
-    section p.about_the_course {
-      position: absolute;
-      margin-left: 212px;
-    }
   </style>
 </head>
 
-<body>
+<body style="      background-image: url(background-fon.jpg);
+background-repeat: no-repeat;
+/*Не повторяет изображение по всему экрану*/
+background-position: center center;
+background-attachment: fixed;
+/*Делает фоновое изображение элемента неподвижным.*/
+background-size: cover;">
   <header>
     <ul class="nav justify-content-center">
       <li class="nav-item">
@@ -119,8 +79,10 @@
   </header>
   <img src="C:\Poziton\картинки\img artificial intelligence.png" alt="Картина искуственного интеллекта">
   <p>Школа искусственного интеллекта</p>
-  <section class="border1">
-    <p class="sticky">1 Курсы</p>
+  <section class="border1" style="border: 1px solid rgb(255, 255, 255);
+  height: 430px;">
+    <p class="sticky" style="position: sticky; top: 15px; text-align: justify; margin-bottom: 0px;
+    ">1 Курсы</p>
     <div class="card" style="width: 18rem; margin-left: 494px;">
       <img class="card-img-top" src="C:\Poziton\картинки\нейросеть.png" alt="Card image cap">
       <div class="card-body">
@@ -145,16 +107,19 @@
       </div>
   </section>
 
-  <section class="border2">
-    <p class="sticky">2 О курсах</p>
-    <p class="about_the_course">На курсе вы сможете создать 4 нейросети, выполнив все практические задания Вы можете
+  <section class="border2" style="border: 1px solid rgb(255, 255, 255);
+  height: 430px;">
+    <p class="sticky" style="position: sticky; top: 15px; text-align: justify; ">2 О курсах</p>
+    <p class="about_the_course" style="position: absolute;
+    margin-left: 212px;">На курсе вы сможете создать 4 нейросети, выполнив все практические задания Вы можете
       обучить нейросеть
       Машинное обучение облегчает труд человека и применяется везде: от тяжёлого машиностроения до медицины
       Широкой публике нейросети известны чудесами вроде распознавания лиц, написания песен в стиле «Гражданской обороны»
       и картин в духе Рембрандта.</p>
   </section>
-  <section class="border3">
-    <p class="sticky">3 Спикеры</p>
+  <section class="border3" style="border: 1px solid rgb(255, 255, 255);
+  height: 611px;">
+    <p class="sticky" style="position: sticky; top: 15px; text-align: justify;">3 Спикеры</p>
     <div class="card" style="width: 18rem; margin-left: 331px;">
       <img class="card-img-top" src="C:\Poziton\картинки\Кирилл Шмидт.webp" alt="Кирилл Шмидт">
       <div class="card-body">
@@ -186,8 +151,9 @@
   </section>
 
   <section>
-    <p class="border4"> Начни обучение и поменяй свою жизнь !</p>
-    <p class="border4">Удачи !</p>
+    <p class="border4" style=" text-align: justify; text-align: center; margin-bottom: 0px;"> Начни обучение и поменяй
+      свою жизнь !</p>
+    <p class="border4" style="text-align: justify; text-align: center; margin-bottom: 0px;">Удачи !</p>
   </section>
 </body>
 
